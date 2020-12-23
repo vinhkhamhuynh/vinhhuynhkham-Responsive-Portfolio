@@ -5,35 +5,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+
+    <!--reset-->
+    <link rel="stylesheet" href="assets/reset.css">
+
+
+    <!--favicon and image-->
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+
+    <!--google font family-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Orbitron&family=Varela+Round&display=swap"
+        rel="stylesheet">
+
+    <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-   
+
+    <!--style css-->
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <header>
+        <a href="index.html" class="header-brand">Vinh's World</a>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
 
-        <a href="." class="navbar-brand">Vinh's World </a>
+
 
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
-            <span class="navbar-togger-icon"></span>
+            <span class="navbar-togger-icon">Menu</span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarMenu">
+        <!--change collapse to expand-->
+        <div class="expand navbar-expand" id="navbarMenu">
 
             <ul class="navbar-nav">
                 <li class="nav-item ">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Portfolio</a>
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
                 </li>
             </ul>
 
         </div>
 
     </nav>
+
+    <main>
+
+        <section class="index-banner">
+            <div class="card bg-dark text-black">
+                <img src="assets/images/banner.jpg" class="card-img" alt="philly kelly's drive">
+                <div class="card-img-overlay">
+                    <!--remove card title with comment-->
+                    <!--  <h5 class="card-title">Card title</h5>-->
+                    <p class="card-text">I'm a Web Developer Apprentice</p>
+                    <p class="card-text">Let's make this homepage the center hub for every Vinh Huynh</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="boxlink">
+
+            <a href="contact.html">
+                <div class="index-boxlink-1">
+                    <h3>contact</h3>
+                </div>
+            </a>
+            <a href="portfolio.html">
+                <div class="index-boxlink-2">
+                    <h3>portfolio</h3>
+                </div>
+            </a>
+            <a href="index.html">
+
+                <div class="index-boxlink-3">
+                    <h3>Vinh's World</h3>
+                </div>
+            </a>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <ul class="footer-menu">
+                <li><a href="#">Vinh's World</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+
+            <ul class="footer-social">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+                <li> <a href="#" class="fa fa-youtube"></a></li>
+            </ul>
+
+            
+        </div>
+
+        
+
+        <!--
+        <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <ul class="footer-social">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+                <li> <a href="#" class="fa fa-youtube"></a></li>
+            </ul>
+        </div>
+
+        <div class="collapse" id="navbarToggleExternalContent">
+            <ul class="footer-menu">
+                <li><a href="#">Vinh's World</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        -->
+
+
+
+
+
+
+
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
