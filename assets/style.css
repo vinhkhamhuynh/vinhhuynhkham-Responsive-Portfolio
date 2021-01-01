@@ -35,9 +35,12 @@ body {
 
 /* main */
 .container {
-    
+    height: auto;
     
 }
+
+
+
 h1 {
     
     
@@ -106,16 +109,8 @@ p {
     background-color: #d7dde2;
     width: 100%;
 }
-.container {
-    
-  
-  
- 
-    
-}
-ul {
-    list-style-type: none;
-}
+
+
 
 .fa {
     padding: 20px;
