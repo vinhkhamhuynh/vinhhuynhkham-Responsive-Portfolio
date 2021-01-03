@@ -18,25 +18,25 @@ Finally, the social media icon is from cloudflare instruction taken from w3schoo
 
 * About me page included 
 
-   * title with navbar toggle when uses a mobile device
+   * Title with navbar toggle when uses a mobile device
 
-   * main included 2 pictures with introduction paragraph
+   * Main included 2 pictures with introduction paragraph
 
-   * footer includes 2 links to social media channel
+   * Footer includes 2 links to social media channel
 
 
 ### Portfolio Page 
 
-* using the same design as homepage for navbar and footer
+* Using the same design as homepage for navbar and footer
 
-* main added row and column layout from bootstrap and using placeholder for the meantime as no project has been submitted
+* Main added row and column layout from bootstrap and using placeholder for the meantime as no project has been submitted
 
 
 ### Contact Page
 
 * Same design as Homepage and Portfolio for navbar and footer for consistency throughout all 3 pages
 
-* form is used in Main to capture information to use later one. 
+* Form is used in Main to capture information to use later one. 
 
 * Will try to integrate info capture with google sheet later on.
 
