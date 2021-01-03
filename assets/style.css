@@ -66,13 +66,14 @@ p {
 }
 
 /* footer*/
+/* footer backgroud color and extend width to whole page*/
 .footer-bg {
     background-color: #d7dde2;
     width: 100%;
 }
 
 
-
+/* css responsible for icon attribute*/
 .fa {
     padding: 20px;
     font-size: 30px;
