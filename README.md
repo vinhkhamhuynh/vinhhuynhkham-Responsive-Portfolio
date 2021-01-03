@@ -37,7 +37,7 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 * Navbar must be consistent on each page.
 
-* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.d
 
 * All links must work.
 
